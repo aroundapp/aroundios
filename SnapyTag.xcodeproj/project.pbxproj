@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47CAB3739D39ECDE73300343 /* Pods_SnapyTag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6F9ACFCDCA400AF9FB52A4 /* Pods_SnapyTag.framework */; };
+		DF33C24E1C51002600117372 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33C24D1C51002600117372 /* Network.swift */; };
+		DF33C2501C510C4600117372 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33C24F1C510C4600117372 /* Utils.swift */; };
+		DF33C2521C5149FB00117372 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33C2511C5149FB00117372 /* AppData.swift */; };
+		DF33C2691C5357CA00117372 /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = DF33C2551C5357CA00117372 /* Icon */; };
+		DF33C26A1C5357CA00117372 /* KaushanScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33C2561C5357CA00117372 /* KaushanScript-Regular.ttf */; };
+		DF33C26D1C5357CA00117372 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33C25A1C5357CA00117372 /* Lobster-Regular.ttf */; };
+		DF33C2711C5357CA00117372 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33C25F1C5357CA00117372 /* OpenSans-Bold.ttf */; };
+		DF33C2721C5357CA00117372 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33C2601C5357CA00117372 /* OpenSans-BoldItalic.ttf */; };
+		DF33C2731C5357CA00117372 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33C2611C5357CA00117372 /* OpenSans-ExtraBold.ttf */; };
+		DF33C2741C5357CA00117372 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33C2621C5357CA00117372 /* OpenSans-ExtraBoldItalic.ttf */; };
+		DF33C2751C5357CA00117372 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33C2631C5357CA00117372 /* OpenSans-Italic.ttf */; };
+		DF33C2761C5357CA00117372 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33C2641C5357CA00117372 /* OpenSans-Light.ttf */; };
+		DF33C2771C5357CA00117372 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33C2651C5357CA00117372 /* OpenSans-LightItalic.ttf */; };
+		DF33C2781C5357CA00117372 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33C2661C5357CA00117372 /* OpenSans-Regular.ttf */; };
+		DF33C2791C5357CA00117372 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33C2671C5357CA00117372 /* OpenSans-Semibold.ttf */; };
+		DF33C27A1C5357CA00117372 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33C2681C5357CA00117372 /* OpenSans-SemiboldItalic.ttf */; };
+		DF33C27C1C5360B200117372 /* LoginDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33C27B1C5360B200117372 /* LoginDot.swift */; };
+		DF33C27E1C539C1900117372 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33C27D1C539C1900117372 /* User.swift */; };
+		DFD3279E1C5077B8000ACAED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD3279D1C5077B8000ACAED /* AppDelegate.swift */; };
+		DFD327A01C5077B8000ACAED /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD3279F1C5077B8000ACAED /* SplashViewController.swift */; };
+		DFD327A31C5077B8000ACAED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD327A11C5077B8000ACAED /* Main.storyboard */; };
+		DFD327A51C5077B8000ACAED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD327A41C5077B8000ACAED /* Assets.xcassets */; };
+		DFD327A81C5077B8000ACAED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD327A61C5077B8000ACAED /* LaunchScreen.storyboard */; };
+		DFD327B31C5077B8000ACAED /* SnapyTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD327B21C5077B8000ACAED /* SnapyTagTests.swift */; };
+		DFD327BE1C5077B8000ACAED /* SnapyTagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD327BD1C5077B8000ACAED /* SnapyTagUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFD327AF1C5077B8000ACAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD327921C5077B8000ACAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD327991C5077B8000ACAED;
+			remoteInfo = SnapyTag;
+		};
+		DFD327BA1C5077B8000ACAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD327921C5077B8000ACAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD327991C5077B8000ACAED;
+			remoteInfo = SnapyTag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		093EE1F5FEC8CFA3FF1E727B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		11BD4417E1F7FAE8E614CD61 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6F9ACFCDCA400AF9FB52A4 /* Pods_SnapyTag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapyTag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DEF29AEE6936CCB5918CB3 /* Pods-SnapyTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapyTag.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapyTag/Pods-SnapyTag.release.xcconfig"; sourceTree = "<group>"; };
+		367B2EC45EA026FF026E32AF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7D3D3923D73463B58848717F /* Pods-SnapyTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapyTag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapyTag/Pods-SnapyTag.debug.xcconfig"; sourceTree = "<group>"; };
+		DF33C24D1C51002600117372 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		DF33C24F1C510C4600117372 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DF33C2511C5149FB00117372 /* AppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		DF33C2551C5357CA00117372 /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
+		DF33C2561C5357CA00117372 /* KaushanScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.ttf"; sourceTree = "<group>"; };
+		DF33C2571C5357CA00117372 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		DF33C2591C5357CA00117372 /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
+		DF33C25A1C5357CA00117372 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		DF33C25B1C5357CA00117372 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		DF33C25D1C5357CA00117372 /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
+		DF33C25E1C5357CA00117372 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		DF33C25F1C5357CA00117372 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		DF33C2601C5357CA00117372 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DF33C2611C5357CA00117372 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DF33C2621C5357CA00117372 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		DF33C2631C5357CA00117372 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		DF33C2641C5357CA00117372 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		DF33C2651C5357CA00117372 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		DF33C2661C5357CA00117372 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		DF33C2671C5357CA00117372 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		DF33C2681C5357CA00117372 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		DF33C27B1C5360B200117372 /* LoginDot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDot.swift; sourceTree = "<group>"; };
+		DF33C27D1C539C1900117372 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DFD3279A1C5077B8000ACAED /* SnapyTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapyTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD3279D1C5077B8000ACAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFD3279F1C5077B8000ACAED /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		DFD327A21C5077B8000ACAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFD327A41C5077B8000ACAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFD327A71C5077B8000ACAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFD327A91C5077B8000ACAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD327AE1C5077B8000ACAED /* SnapyTagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapyTagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD327B21C5077B8000ACAED /* SnapyTagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapyTagTests.swift; sourceTree = "<group>"; };
+		DFD327B41C5077B8000ACAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD327B91C5077B8000ACAED /* SnapyTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapyTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD327BD1C5077B8000ACAED /* SnapyTagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapyTagUITests.swift; sourceTree = "<group>"; };
+		DFD327BF1C5077B8000ACAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFD327971C5077B8000ACAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CAB3739D39ECDE73300343 /* Pods_SnapyTag.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD327AB1C5077B8000ACAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD327B61C5077B8000ACAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113E07D919AFA4683A25A116 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				367B2EC45EA026FF026E32AF /* Pods.debug.xcconfig */,
+				093EE1F5FEC8CFA3FF1E727B /* Pods.release.xcconfig */,
+				7D3D3923D73463B58848717F /* Pods-SnapyTag.debug.xcconfig */,
+				30DEF29AEE6936CCB5918CB3 /* Pods-SnapyTag.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8074F167AEC70A973F5C850E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11BD4417E1F7FAE8E614CD61 /* Pods.framework */,
+				1C6F9ACFCDCA400AF9FB52A4 /* Pods_SnapyTag.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF33C24C1C51001500117372 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				DF33C24D1C51002600117372 /* Network.swift */,
+				DF33C24F1C510C4600117372 /* Utils.swift */,
+				DF33C2511C5149FB00117372 /* AppData.swift */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		DF33C2531C53579100117372 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DF33C2541C5357CA00117372 /* Kaushan_Script */,
+				DF33C2581C5357CA00117372 /* Lobster */,
+				DF33C25C1C5357CA00117372 /* Open_Sans */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		DF33C2541C5357CA00117372 /* Kaushan_Script */ = {
+			isa = PBXGroup;
+			children = (
+				DF33C2551C5357CA00117372 /* Icon */,
+				DF33C2561C5357CA00117372 /* KaushanScript-Regular.ttf */,
+				DF33C2571C5357CA00117372 /* OFL.txt */,
+			);
+			name = Kaushan_Script;
+			path = fonts/Kaushan_Script;
+			sourceTree = "<group>";
+		};
+		DF33C2581C5357CA00117372 /* Lobster */ = {
+			isa = PBXGroup;
+			children = (
+				DF33C2591C5357CA00117372 /* Icon */,
+				DF33C25A1C5357CA00117372 /* Lobster-Regular.ttf */,
+				DF33C25B1C5357CA00117372 /* OFL.txt */,
+			);
+			name = Lobster;
+			path = fonts/Lobster;
+			sourceTree = "<group>";
+		};
+		DF33C25C1C5357CA00117372 /* Open_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				DF33C25D1C5357CA00117372 /* Icon */,
+				DF33C25E1C5357CA00117372 /* LICENSE.txt */,
+				DF33C25F1C5357CA00117372 /* OpenSans-Bold.ttf */,
+				DF33C2601C5357CA00117372 /* OpenSans-BoldItalic.ttf */,
+				DF33C2611C5357CA00117372 /* OpenSans-ExtraBold.ttf */,
+				DF33C2621C5357CA00117372 /* OpenSans-ExtraBoldItalic.ttf */,
+				DF33C2631C5357CA00117372 /* OpenSans-Italic.ttf */,
+				DF33C2641C5357CA00117372 /* OpenSans-Light.ttf */,
+				DF33C2651C5357CA00117372 /* OpenSans-LightItalic.ttf */,
+				DF33C2661C5357CA00117372 /* OpenSans-Regular.ttf */,
+				DF33C2671C5357CA00117372 /* OpenSans-Semibold.ttf */,
+				DF33C2681C5357CA00117372 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			name = Open_Sans;
+			path = fonts/Open_Sans;
+			sourceTree = "<group>";
+		};
+		DFD327911C5077B8000ACAED = {
+			isa = PBXGroup;
+			children = (
+				DFD3279C1C5077B8000ACAED /* SnapyTag */,
+				DFD327B11C5077B8000ACAED /* SnapyTagTests */,
+				DFD327BC1C5077B8000ACAED /* SnapyTagUITests */,
+				DFD3279B1C5077B8000ACAED /* Products */,
+				113E07D919AFA4683A25A116 /* Pods */,
+				8074F167AEC70A973F5C850E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFD3279B1C5077B8000ACAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFD3279A1C5077B8000ACAED /* SnapyTag.app */,
+				DFD327AE1C5077B8000ACAED /* SnapyTagTests.xctest */,
+				DFD327B91C5077B8000ACAED /* SnapyTagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFD3279C1C5077B8000ACAED /* SnapyTag */ = {
+			isa = PBXGroup;
+			children = (
+				DF33C2531C53579100117372 /* fonts */,
+				DF33C24C1C51001500117372 /* Libs */,
+				DFF1E70D1C50C19100838B7A /* Storyboards */,
+				DFF1E70A1C50C14400838B7A /* Views */,
+				DFF1E7081C50C13200838B7A /* Models */,
+				DFF1E7071C50C10900838B7A /* ViewControllers */,
+				DFF1E7061C50C0EF00838B7A /* Main */,
+			);
+			path = SnapyTag;
+			sourceTree = "<group>";
+		};
+		DFD327B11C5077B8000ACAED /* SnapyTagTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD327B21C5077B8000ACAED /* SnapyTagTests.swift */,
+				DFD327B41C5077B8000ACAED /* Info.plist */,
+			);
+			path = SnapyTagTests;
+			sourceTree = "<group>";
+		};
+		DFD327BC1C5077B8000ACAED /* SnapyTagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD327BD1C5077B8000ACAED /* SnapyTagUITests.swift */,
+				DFD327BF1C5077B8000ACAED /* Info.plist */,
+			);
+			path = SnapyTagUITests;
+			sourceTree = "<group>";
+		};
+		DFF1E7061C50C0EF00838B7A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DFD3279D1C5077B8000ACAED /* AppDelegate.swift */,
+				DFD327A91C5077B8000ACAED /* Info.plist */,
+				DFD327A41C5077B8000ACAED /* Assets.xcassets */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		DFF1E7071C50C10900838B7A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DFD3279F1C5077B8000ACAED /* SplashViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DFF1E7081C50C13200838B7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF33C27D1C539C1900117372 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DFF1E70A1C50C14400838B7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF33C27B1C5360B200117372 /* LoginDot.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DFF1E70D1C50C19100838B7A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DFD327A11C5077B8000ACAED /* Main.storyboard */,
+				DFD327A61C5077B8000ACAED /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFD327991C5077B8000ACAED /* SnapyTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD327C21C5077B8000ACAED /* Build configuration list for PBXNativeTarget "SnapyTag" */;
+			buildPhases = (
+				94B9B98852F1DFAF46A2D946 /* Check Pods Manifest.lock */,
+				DFD327961C5077B8000ACAED /* Sources */,
+				DFD327971C5077B8000ACAED /* Frameworks */,
+				DFD327981C5077B8000ACAED /* Resources */,
+				416CD505C7FAB59FB5EE03DD /* Embed Pods Frameworks */,
+				8E2E0A0505628305866BC847 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapyTag;
+			productName = SnapyTag;
+			productReference = DFD3279A1C5077B8000ACAED /* SnapyTag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFD327AD1C5077B8000ACAED /* SnapyTagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD327C51C5077B8000ACAED /* Build configuration list for PBXNativeTarget "SnapyTagTests" */;
+			buildPhases = (
+				DFD327AA1C5077B8000ACAED /* Sources */,
+				DFD327AB1C5077B8000ACAED /* Frameworks */,
+				DFD327AC1C5077B8000ACAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD327B01C5077B8000ACAED /* PBXTargetDependency */,
+			);
+			name = SnapyTagTests;
+			productName = SnapyTagTests;
+			productReference = DFD327AE1C5077B8000ACAED /* SnapyTagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFD327B81C5077B8000ACAED /* SnapyTagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD327C81C5077B8000ACAED /* Build configuration list for PBXNativeTarget "SnapyTagUITests" */;
+			buildPhases = (
+				DFD327B51C5077B8000ACAED /* Sources */,
+				DFD327B61C5077B8000ACAED /* Frameworks */,
+				DFD327B71C5077B8000ACAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD327BB1C5077B8000ACAED /* PBXTargetDependency */,
+			);
+			name = SnapyTagUITests;
+			productName = SnapyTagUITests;
+			productReference = DFD327B91C5077B8000ACAED /* SnapyTagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFD327921C5077B8000ACAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = snapyTag;
+				TargetAttributes = {
+					DFD327991C5077B8000ACAED = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DFD327AD1C5077B8000ACAED = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DFD327991C5077B8000ACAED;
+					};
+					DFD327B81C5077B8000ACAED = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DFD327991C5077B8000ACAED;
+					};
+				};
+			};
+			buildConfigurationList = DFD327951C5077B8000ACAED /* Build configuration list for PBXProject "SnapyTag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFD327911C5077B8000ACAED;
+			productRefGroup = DFD3279B1C5077B8000ACAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFD327991C5077B8000ACAED /* SnapyTag */,
+				DFD327AD1C5077B8000ACAED /* SnapyTagTests */,
+				DFD327B81C5077B8000ACAED /* SnapyTagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFD327981C5077B8000ACAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF33C2711C5357CA00117372 /* OpenSans-Bold.ttf in Resources */,
+				DF33C2791C5357CA00117372 /* OpenSans-Semibold.ttf in Resources */,
+				DF33C2761C5357CA00117372 /* OpenSans-Light.ttf in Resources */,
+				DF33C26D1C5357CA00117372 /* Lobster-Regular.ttf in Resources */,
+				DF33C2771C5357CA00117372 /* OpenSans-LightItalic.ttf in Resources */,
+				DF33C27A1C5357CA00117372 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				DF33C2741C5357CA00117372 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				DF33C2781C5357CA00117372 /* OpenSans-Regular.ttf in Resources */,
+				DFD327A81C5077B8000ACAED /* LaunchScreen.storyboard in Resources */,
+				DF33C2751C5357CA00117372 /* OpenSans-Italic.ttf in Resources */,
+				DF33C2721C5357CA00117372 /* OpenSans-BoldItalic.ttf in Resources */,
+				DF33C2731C5357CA00117372 /* OpenSans-ExtraBold.ttf in Resources */,
+				DFD327A51C5077B8000ACAED /* Assets.xcassets in Resources */,
+				DF33C26A1C5357CA00117372 /* KaushanScript-Regular.ttf in Resources */,
+				DFD327A31C5077B8000ACAED /* Main.storyboard in Resources */,
+				DF33C2691C5357CA00117372 /* Icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD327AC1C5077B8000ACAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD327B71C5077B8000ACAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		416CD505C7FAB59FB5EE03DD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapyTag/Pods-SnapyTag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E2E0A0505628305866BC847 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapyTag/Pods-SnapyTag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94B9B98852F1DFAF46A2D946 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFD327961C5077B8000ACAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD327A01C5077B8000ACAED /* SplashViewController.swift in Sources */,
+				DF33C27C1C5360B200117372 /* LoginDot.swift in Sources */,
+				DFD3279E1C5077B8000ACAED /* AppDelegate.swift in Sources */,
+				DF33C24E1C51002600117372 /* Network.swift in Sources */,
+				DF33C2501C510C4600117372 /* Utils.swift in Sources */,
+				DF33C2521C5149FB00117372 /* AppData.swift in Sources */,
+				DF33C27E1C539C1900117372 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD327AA1C5077B8000ACAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD327B31C5077B8000ACAED /* SnapyTagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD327B51C5077B8000ACAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD327BE1C5077B8000ACAED /* SnapyTagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFD327B01C5077B8000ACAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD327991C5077B8000ACAED /* SnapyTag */;
+			targetProxy = DFD327AF1C5077B8000ACAED /* PBXContainerItemProxy */;
+		};
+		DFD327BB1C5077B8000ACAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD327991C5077B8000ACAED /* SnapyTag */;
+			targetProxy = DFD327BA1C5077B8000ACAED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFD327A11C5077B8000ACAED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD327A21C5077B8000ACAED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFD327A61C5077B8000ACAED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD327A71C5077B8000ACAED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFD327C01C5077B8000ACAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFD327C11C5077B8000ACAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD327C31C5077B8000ACAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3D3923D73463B58848717F /* Pods-SnapyTag.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapyTag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snapyTag.SnapyTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DFD327C41C5077B8000ACAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30DEF29AEE6936CCB5918CB3 /* Pods-SnapyTag.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapyTag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snapyTag.SnapyTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DFD327C61C5077B8000ACAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapyTagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snapyTag.SnapyTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapyTag.app/SnapyTag";
+			};
+			name = Debug;
+		};
+		DFD327C71C5077B8000ACAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapyTagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snapyTag.SnapyTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapyTag.app/SnapyTag";
+			};
+			name = Release;
+		};
+		DFD327C91C5077B8000ACAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapyTagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snapyTag.SnapyTagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapyTag;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DFD327CA1C5077B8000ACAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapyTagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snapyTag.SnapyTagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapyTag;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFD327951C5077B8000ACAED /* Build configuration list for PBXProject "SnapyTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD327C01C5077B8000ACAED /* Debug */,
+				DFD327C11C5077B8000ACAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD327C21C5077B8000ACAED /* Build configuration list for PBXNativeTarget "SnapyTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD327C31C5077B8000ACAED /* Debug */,
+				DFD327C41C5077B8000ACAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD327C51C5077B8000ACAED /* Build configuration list for PBXNativeTarget "SnapyTagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD327C61C5077B8000ACAED /* Debug */,
+				DFD327C71C5077B8000ACAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD327C81C5077B8000ACAED /* Build configuration list for PBXNativeTarget "SnapyTagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD327C91C5077B8000ACAED /* Debug */,
+				DFD327CA1C5077B8000ACAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFD327921C5077B8000ACAED /* Project object */;
+}
