@@ -26,6 +26,8 @@
 		DF33C27A1C5357CA00117372 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33C2681C5357CA00117372 /* OpenSans-SemiboldItalic.ttf */; };
 		DF33C27C1C5360B200117372 /* LoginDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33C27B1C5360B200117372 /* LoginDot.swift */; };
 		DF33C27E1C539C1900117372 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33C27D1C539C1900117372 /* User.swift */; };
+		DF4D48F31C58FD68001E8F43 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D48F21C58FD68001E8F43 /* LoginResponse.swift */; };
+		DF4D48F51C58FE57001E8F43 /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D48F41C58FE57001E8F43 /* AppVersion.swift */; };
 		DFD3279E1C5077B8000ACAED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD3279D1C5077B8000ACAED /* AppDelegate.swift */; };
 		DFD327A01C5077B8000ACAED /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD3279F1C5077B8000ACAED /* SplashViewController.swift */; };
 		DFD327A31C5077B8000ACAED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD327A11C5077B8000ACAED /* Main.storyboard */; };
@@ -82,6 +84,8 @@
 		DF33C2681C5357CA00117372 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
 		DF33C27B1C5360B200117372 /* LoginDot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDot.swift; sourceTree = "<group>"; };
 		DF33C27D1C539C1900117372 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DF4D48F21C58FD68001E8F43 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		DF4D48F41C58FE57001E8F43 /* AppVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppVersion.swift; sourceTree = "<group>"; };
 		DFD3279A1C5077B8000ACAED /* SnapyTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapyTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD3279D1C5077B8000ACAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD3279F1C5077B8000ACAED /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -281,6 +285,8 @@
 			isa = PBXGroup;
 			children = (
 				DF33C27D1C539C1900117372 /* User.swift */,
+				DF4D48F41C58FE57001E8F43 /* AppVersion.swift */,
+				DF4D48F21C58FD68001E8F43 /* LoginResponse.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -500,9 +506,11 @@
 				DFD327A01C5077B8000ACAED /* SplashViewController.swift in Sources */,
 				DF33C27C1C5360B200117372 /* LoginDot.swift in Sources */,
 				DFD3279E1C5077B8000ACAED /* AppDelegate.swift in Sources */,
+				DF4D48F51C58FE57001E8F43 /* AppVersion.swift in Sources */,
 				DF33C24E1C51002600117372 /* Network.swift in Sources */,
 				DF33C2501C510C4600117372 /* Utils.swift in Sources */,
 				DF33C2521C5149FB00117372 /* AppData.swift in Sources */,
+				DF4D48F31C58FD68001E8F43 /* LoginResponse.swift in Sources */,
 				DF33C27E1C539C1900117372 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

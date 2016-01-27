@@ -11,7 +11,7 @@ import FBSDKCoreKit
 import Alamofire
 import FBSDKLoginKit
 
-class ViewController: UIViewController {
+class SplashViewController: UIViewController {
 
     @IBOutlet weak var connectToFacebookLable: UILabel!
     @IBOutlet weak var loginUserImageView: UIImageView!
@@ -63,8 +63,8 @@ class ViewController: UIViewController {
 
     func verifyAppTokenAndMoveToFeed() {
         STNetwork.sharedInstance.verifyAppToken({
-            (user) -> () in
-            print("Token Verification Successful \nUser: \(user)")
+            (response) -> () in
+            print("Token Verification Successful \nResponse: \(response)")
             // Move to feed
             },
             failure: {
@@ -80,8 +80,8 @@ class ViewController: UIViewController {
     func signUpUserWithFBTokenAndMoveToFeed(fbToken: String) {
         STNetwork.sharedInstance.signUpUserWithFBToken(fbToken,
             success: {
-                (user) -> () in
-                print("Sign Up Successful \nUser: \(user)")
+                (response) -> () in
+                print("Sign Up Successful \nResponse: \(response)")
                 // Move to the feed
             },
             failure: {
@@ -98,7 +98,7 @@ class ViewController: UIViewController {
 }
 
 // Pragma: FBSDKLoginButtonDelegate
-extension ViewController: FBSDKLoginButtonDelegate {
+extension SplashViewController: FBSDKLoginButtonDelegate {
 
     func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
         if error != nil {

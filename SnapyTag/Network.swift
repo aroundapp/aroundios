@@ -86,28 +86,28 @@ class STNetwork {
     static let sharedInstance = STNetwork()
     private init() {}
 
-    func verifyAppToken(success: ((user: STUser) -> ()), failure: ((error: NSError) -> ())) {
+    func verifyAppToken(success: ((response: LoginResponse) -> ()), failure: ((error: NSError) -> ())) {
         Alamofire.request(STRouter.VerifyLogin())
             .validate()
             .responseObject {
-                (response: Response<STUser, NSError>) in
+                (response: Response<LoginResponse, NSError>) in
                 switch response.result {
-                case .Success(let user):
-                    success(user: user)
+                case .Success(let response):
+                    success(response: response)
                 case .Failure(let error):
                     failure(error: error)
                 }
         }
     }
 
-    func signUpUserWithFBToken(fbToken: String, success: ((user: STUser) -> ()), failure: ((error: NSError) -> ())) {
+    func signUpUserWithFBToken(fbToken: String, success: ((response: LoginResponse) -> ()), failure: ((error: NSError) -> ())) {
         Alamofire.request(STRouter.SignUp(fbToken))
             .validate()
             .responseObject {
-                (response: Response<STUser, NSError>) in
+                (response: Response<LoginResponse, NSError>) in
                 switch response.result {
-                case .Success(let user):
-                    success(user: user)
+                case .Success(let response):
+                    success(response: response)
                 case .Failure(let error):
                     failure(error: error)
                 }

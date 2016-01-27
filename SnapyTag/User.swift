@@ -33,18 +33,12 @@ class STUser: ResponseObjectSerializable, CustomStringConvertible {
 
     required init?(response: NSHTTPURLResponse, representation: AnyObject) {
         let userJson = JSON(representation)
-        let token = userJson["token"].stringValue
-        STAppData.sharedInstance.appToken = token
-        self.firstName = userJson["user"]["first_name"].stringValue
-        self.lastName = userJson["user"]["last_name"].stringValue
-        self.gender = userJson["user"]["gender"].stringValue
-        self.pictureUrl = userJson["user"]["picture"].stringValue
+        self.firstName = userJson["first_name"].stringValue
+        self.lastName = userJson["last_name"].stringValue
+        self.gender = userJson["gender"].stringValue
+        self.pictureUrl = userJson["picture"].stringValue
 
         if self.firstName.isEmpty {
-            return nil
-        }
-
-        if token.isEmpty {
             return nil
         }
     }
