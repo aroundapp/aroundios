@@ -9,6 +9,10 @@ def shared_pods
 	pod 'FBSDKLoginKit'
 	pod 'FBSDKShareKit'
 	pod 'SwiftDate'
+	pod 'DynamicColor', '~> 2.3.0'
+	pod 'SVProgressHUD'
+	pod 'SnapKit', '~> 0.15.0'
+	pod 'SwiftLocation'
 end
 
 target "SnapyTag" do

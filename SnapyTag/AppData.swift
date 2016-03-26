@@ -21,6 +21,15 @@ class STAppData {
 
     private var userDefaults = NSUserDefaults.standardUserDefaults()
 
+    static var isLogined: Bool {
+
+        if let _ = STAppData.sharedInstance.appToken {
+            return true
+        } else {
+            return false
+        }
+    }
+
 
     var appToken: String? {
         set (token) {

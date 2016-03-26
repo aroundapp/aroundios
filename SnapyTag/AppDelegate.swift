@@ -13,14 +13,25 @@ import FBSDKLoginKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    let appStartTimeStamp = NSDate()
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // connect facebook delegate
+
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
 
         // App Activated facebook log
         FBSDKAppEvents.activateApp()
+
+        customAppearance()
+
+        if !STAppData.isLogined {
+            startLoginStory()
+        }
+
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+
         return true
     }
 
@@ -46,6 +57,41 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func startLoginStory() {
+        let storyboard = UIStoryboard(name: "Login", bundle: nil)
+        let rootViewController = storyboard.instantiateViewControllerWithIdentifier("LoginNavigationController") as! UINavigationController
+        window?.rootViewController = rootViewController
+    }
 
+    func startMainStory() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let rootViewController = storyboard.instantiateViewControllerWithIdentifier("MainNavigationController") as! UINavigationController
+        window?.rootViewController = rootViewController
+    }
+
+    private func customAppearance() {
+
+        // Global Tint Color
+
+        window?.tintColor = UIColor.snapyTagTintColor()
+        window?.tintAdjustmentMode = .Normal
+
+        // NavigationBar Item Style
+
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.snapyTagTintColor()], forState: .Normal)
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.snapyTagTintColor().colorWithAlphaComponent(0.3)], forState: .Disabled)
+
+        // NavigationBar Title Style
+
+
+        let textAttributes = [
+            NSForegroundColorAttributeName: UIColor.snapyTagNavgationBarTitleColor(),
+            NSFontAttributeName: UIFont.navigationBarTitleFont()
+        ]
+
+        UINavigationBar.appearance().titleTextAttributes = textAttributes
+        UINavigationBar.appearance().barTintColor = UIColor.snapyTagTintColor()
+    }
+    
 }
 

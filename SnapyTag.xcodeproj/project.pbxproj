@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		47CAB3739D39ECDE73300343 /* Pods_SnapyTag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6F9ACFCDCA400AF9FB52A4 /* Pods_SnapyTag.framework */; };
+		DF30FBE51C92BF1B00E62FEB /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30FBE41C92BF1B00E62FEB /* Snap.swift */; };
+		DF3322331C8C6AF1002E42F4 /* SnapFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3322321C8C6AF1002E42F4 /* SnapFeedCell.swift */; };
 		DF33C24E1C51002600117372 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33C24D1C51002600117372 /* Network.swift */; };
 		DF33C2501C510C4600117372 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33C24F1C510C4600117372 /* Utils.swift */; };
 		DF33C2521C5149FB00117372 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33C2511C5149FB00117372 /* AppData.swift */; };
@@ -28,11 +30,18 @@
 		DF33C27E1C539C1900117372 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33C27D1C539C1900117372 /* User.swift */; };
 		DF4D48F31C58FD68001E8F43 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D48F21C58FD68001E8F43 /* LoginResponse.swift */; };
 		DF4D48F51C58FE57001E8F43 /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D48F41C58FE57001E8F43 /* AppVersion.swift */; };
+		DF71744B1C672BF000B2AD9F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF71744A1C672BF000B2AD9F /* Localizable.strings */; };
+		DF71744D1C67338200B2AD9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF71744C1C67338200B2AD9F /* Main.storyboard */; };
+		DF7174511C6735A200B2AD9F /* NearestFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7174501C6735A200B2AD9F /* NearestFeedViewController.swift */; };
+		DF7174531C6735B700B2AD9F /* PopularFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7174521C6735B700B2AD9F /* PopularFeedViewController.swift */; };
+		DF7174561C6737A900B2AD9F /* STColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7174551C6737A900B2AD9F /* STColor.swift */; };
+		DF7174581C673BA400B2AD9F /* STFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7174571C673BA400B2AD9F /* STFont.swift */; };
+		DF71745A1C6775DA00B2AD9F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7174591C6775DA00B2AD9F /* FeedViewController.swift */; };
+		DF842F891C90B3AA00A2BCB4 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF842F881C90B3AA00A2BCB4 /* UIButtonExtension.swift */; };
 		DFD3279E1C5077B8000ACAED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD3279D1C5077B8000ACAED /* AppDelegate.swift */; };
 		DFD327A01C5077B8000ACAED /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD3279F1C5077B8000ACAED /* SplashViewController.swift */; };
-		DFD327A31C5077B8000ACAED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD327A11C5077B8000ACAED /* Main.storyboard */; };
+		DFD327A31C5077B8000ACAED /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD327A11C5077B8000ACAED /* Login.storyboard */; };
 		DFD327A51C5077B8000ACAED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD327A41C5077B8000ACAED /* Assets.xcassets */; };
-		DFD327A81C5077B8000ACAED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD327A61C5077B8000ACAED /* LaunchScreen.storyboard */; };
 		DFD327B31C5077B8000ACAED /* SnapyTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD327B21C5077B8000ACAED /* SnapyTagTests.swift */; };
 		DFD327BE1C5077B8000ACAED /* SnapyTagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD327BD1C5077B8000ACAED /* SnapyTagUITests.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +70,8 @@
 		30DEF29AEE6936CCB5918CB3 /* Pods-SnapyTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapyTag.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapyTag/Pods-SnapyTag.release.xcconfig"; sourceTree = "<group>"; };
 		367B2EC45EA026FF026E32AF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7D3D3923D73463B58848717F /* Pods-SnapyTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapyTag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapyTag/Pods-SnapyTag.debug.xcconfig"; sourceTree = "<group>"; };
+		DF30FBE41C92BF1B00E62FEB /* Snap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		DF3322321C8C6AF1002E42F4 /* SnapFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapFeedCell.swift; sourceTree = "<group>"; };
 		DF33C24D1C51002600117372 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		DF33C24F1C510C4600117372 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		DF33C2511C5149FB00117372 /* AppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
@@ -86,12 +97,19 @@
 		DF33C27D1C539C1900117372 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DF4D48F21C58FD68001E8F43 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		DF4D48F41C58FE57001E8F43 /* AppVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppVersion.swift; sourceTree = "<group>"; };
+		DF71744A1C672BF000B2AD9F /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		DF71744C1C67338200B2AD9F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DF7174501C6735A200B2AD9F /* NearestFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearestFeedViewController.swift; sourceTree = "<group>"; };
+		DF7174521C6735B700B2AD9F /* PopularFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularFeedViewController.swift; sourceTree = "<group>"; };
+		DF7174551C6737A900B2AD9F /* STColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STColor.swift; sourceTree = "<group>"; };
+		DF7174571C673BA400B2AD9F /* STFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STFont.swift; sourceTree = "<group>"; };
+		DF7174591C6775DA00B2AD9F /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		DF842F881C90B3AA00A2BCB4 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		DFD3279A1C5077B8000ACAED /* SnapyTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapyTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD3279D1C5077B8000ACAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD3279F1C5077B8000ACAED /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		DFD327A21C5077B8000ACAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFD327A21C5077B8000ACAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		DFD327A41C5077B8000ACAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DFD327A71C5077B8000ACAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFD327A91C5077B8000ACAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFD327AE1C5077B8000ACAED /* SnapyTagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapyTagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD327B21C5077B8000ACAED /* SnapyTagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapyTagTests.swift; sourceTree = "<group>"; };
@@ -147,24 +165,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF33222D1C8C3506002E42F4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DF3322321C8C6AF1002E42F4 /* SnapFeedCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 		DF33C24C1C51001500117372 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
 				DF33C24D1C51002600117372 /* Network.swift */,
 				DF33C24F1C510C4600117372 /* Utils.swift */,
 				DF33C2511C5149FB00117372 /* AppData.swift */,
+				DF842F881C90B3AA00A2BCB4 /* UIButtonExtension.swift */,
 			);
 			name = Libs;
 			sourceTree = "<group>";
 		};
-		DF33C2531C53579100117372 /* fonts */ = {
+		DF33C2531C53579100117372 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
 				DF33C2541C5357CA00117372 /* Kaushan_Script */,
 				DF33C2581C5357CA00117372 /* Lobster */,
 				DF33C25C1C5357CA00117372 /* Open_Sans */,
 			);
-			name = fonts;
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		DF33C2541C5357CA00117372 /* Kaushan_Script */ = {
@@ -209,9 +236,19 @@
 			path = fonts/Open_Sans;
 			sourceTree = "<group>";
 		};
+		DF7174541C67376500B2AD9F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF7174551C6737A900B2AD9F /* STColor.swift */,
+				DF7174571C673BA400B2AD9F /* STFont.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		DFD327911C5077B8000ACAED = {
 			isa = PBXGroup;
 			children = (
+				DF71744A1C672BF000B2AD9F /* Localizable.strings */,
 				DFD3279C1C5077B8000ACAED /* SnapyTag */,
 				DFD327B11C5077B8000ACAED /* SnapyTagTests */,
 				DFD327BC1C5077B8000ACAED /* SnapyTagUITests */,
@@ -234,7 +271,9 @@
 		DFD3279C1C5077B8000ACAED /* SnapyTag */ = {
 			isa = PBXGroup;
 			children = (
-				DF33C2531C53579100117372 /* fonts */,
+				DF33222D1C8C3506002E42F4 /* Cell */,
+				DF7174541C67376500B2AD9F /* Extensions */,
+				DF33C2531C53579100117372 /* Fonts */,
 				DF33C24C1C51001500117372 /* Libs */,
 				DFF1E70D1C50C19100838B7A /* Storyboards */,
 				DFF1E70A1C50C14400838B7A /* Views */,
@@ -277,6 +316,9 @@
 			isa = PBXGroup;
 			children = (
 				DFD3279F1C5077B8000ACAED /* SplashViewController.swift */,
+				DF7174591C6775DA00B2AD9F /* FeedViewController.swift */,
+				DF7174501C6735A200B2AD9F /* NearestFeedViewController.swift */,
+				DF7174521C6735B700B2AD9F /* PopularFeedViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -287,6 +329,7 @@
 				DF33C27D1C539C1900117372 /* User.swift */,
 				DF4D48F41C58FE57001E8F43 /* AppVersion.swift */,
 				DF4D48F21C58FD68001E8F43 /* LoginResponse.swift */,
+				DF30FBE41C92BF1B00E62FEB /* Snap.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -302,8 +345,8 @@
 		DFF1E70D1C50C19100838B7A /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				DFD327A11C5077B8000ACAED /* Main.storyboard */,
-				DFD327A61C5077B8000ACAED /* LaunchScreen.storyboard */,
+				DFD327A11C5077B8000ACAED /* Login.storyboard */,
+				DF71744C1C67338200B2AD9F /* Main.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -415,6 +458,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF71744B1C672BF000B2AD9F /* Localizable.strings in Resources */,
 				DF33C2711C5357CA00117372 /* OpenSans-Bold.ttf in Resources */,
 				DF33C2791C5357CA00117372 /* OpenSans-Semibold.ttf in Resources */,
 				DF33C2761C5357CA00117372 /* OpenSans-Light.ttf in Resources */,
@@ -423,13 +467,13 @@
 				DF33C27A1C5357CA00117372 /* OpenSans-SemiboldItalic.ttf in Resources */,
 				DF33C2741C5357CA00117372 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				DF33C2781C5357CA00117372 /* OpenSans-Regular.ttf in Resources */,
-				DFD327A81C5077B8000ACAED /* LaunchScreen.storyboard in Resources */,
 				DF33C2751C5357CA00117372 /* OpenSans-Italic.ttf in Resources */,
 				DF33C2721C5357CA00117372 /* OpenSans-BoldItalic.ttf in Resources */,
 				DF33C2731C5357CA00117372 /* OpenSans-ExtraBold.ttf in Resources */,
 				DFD327A51C5077B8000ACAED /* Assets.xcassets in Resources */,
 				DF33C26A1C5357CA00117372 /* KaushanScript-Regular.ttf in Resources */,
-				DFD327A31C5077B8000ACAED /* Main.storyboard in Resources */,
+				DF71744D1C67338200B2AD9F /* Main.storyboard in Resources */,
+				DFD327A31C5077B8000ACAED /* Login.storyboard in Resources */,
 				DF33C2691C5357CA00117372 /* Icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,9 +547,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7174561C6737A900B2AD9F /* STColor.swift in Sources */,
+				DF7174531C6735B700B2AD9F /* PopularFeedViewController.swift in Sources */,
 				DFD327A01C5077B8000ACAED /* SplashViewController.swift in Sources */,
+				DF3322331C8C6AF1002E42F4 /* SnapFeedCell.swift in Sources */,
+				DF30FBE51C92BF1B00E62FEB /* Snap.swift in Sources */,
 				DF33C27C1C5360B200117372 /* LoginDot.swift in Sources */,
+				DF7174581C673BA400B2AD9F /* STFont.swift in Sources */,
 				DFD3279E1C5077B8000ACAED /* AppDelegate.swift in Sources */,
+				DF71745A1C6775DA00B2AD9F /* FeedViewController.swift in Sources */,
+				DF7174511C6735A200B2AD9F /* NearestFeedViewController.swift in Sources */,
+				DF842F891C90B3AA00A2BCB4 /* UIButtonExtension.swift in Sources */,
 				DF4D48F51C58FE57001E8F43 /* AppVersion.swift in Sources */,
 				DF33C24E1C51002600117372 /* Network.swift in Sources */,
 				DF33C2501C510C4600117372 /* Utils.swift in Sources */,
@@ -547,20 +599,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DFD327A11C5077B8000ACAED /* Main.storyboard */ = {
+		DFD327A11C5077B8000ACAED /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DFD327A21C5077B8000ACAED /* Base */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DFD327A61C5077B8000ACAED /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFD327A71C5077B8000ACAED /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

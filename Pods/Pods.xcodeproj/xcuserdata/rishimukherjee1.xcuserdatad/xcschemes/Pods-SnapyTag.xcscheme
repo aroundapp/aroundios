@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B94777A0DE1A3741CEA823C9'
+               BlueprintIdentifier = '5A524F192F07CCD13A4F50E8'
                BlueprintName = 'Pods-SnapyTag'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_SnapyTag.framework'>

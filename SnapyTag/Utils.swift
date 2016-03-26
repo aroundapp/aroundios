@@ -14,6 +14,13 @@ class STUtils {
     static let sharedInstance = STUtils()
     private init() {}
 
+    func distanceInKmOrMilesDependingOnLocale(km: Double, mile: Double) -> String {
+        let locale = NSLocale.currentLocale()
+        let isMetric = locale.objectForKey(NSLocaleUsesMetricSystem)! as! Bool
+        let val = isMetric ? mile : km
+        let unit = isMetric ? "Miles" : "Kms"
+        return String(format: "%.2f \(unit)", val)
+    }
 
 }
 

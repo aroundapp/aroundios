@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  SnapyTag
+
+  Created by Rishi Mukherjee on 07/02/16.
+  Copyright © 2016 snapyTag. All rights reserved.
+*/
+
+"Something went wrong" = "Something went wrong";
+"You need to login to use SnapyTag" = "You need to login to use SnapyTag";
+
+"Facebook Login Cancelled" = "Facebook Login Cancelled";
+"A server with the specified hostname could not be found" = "A server with the specified hostname could not be found";
+
+"You need to connect with us before you can post anything" = "You need to connect with us before you can post anything";

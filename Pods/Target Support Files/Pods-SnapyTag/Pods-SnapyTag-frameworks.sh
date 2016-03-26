@@ -86,18 +86,26 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-SnapyTag/Alamofire.framework"
   install_framework "Pods-SnapyTag/Bolts.framework"
+  install_framework "Pods-SnapyTag/DynamicColor.framework"
   install_framework "Pods-SnapyTag/FBSDKCoreKit.framework"
   install_framework "Pods-SnapyTag/FBSDKLoginKit.framework"
   install_framework "Pods-SnapyTag/FBSDKShareKit.framework"
+  install_framework "Pods-SnapyTag/SVProgressHUD.framework"
+  install_framework "Pods-SnapyTag/SnapKit.framework"
   install_framework "Pods-SnapyTag/SwiftDate.framework"
+  install_framework "Pods-SnapyTag/SwiftLocation.framework"
   install_framework "Pods-SnapyTag/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-SnapyTag/Alamofire.framework"
   install_framework "Pods-SnapyTag/Bolts.framework"
+  install_framework "Pods-SnapyTag/DynamicColor.framework"
   install_framework "Pods-SnapyTag/FBSDKCoreKit.framework"
   install_framework "Pods-SnapyTag/FBSDKLoginKit.framework"
   install_framework "Pods-SnapyTag/FBSDKShareKit.framework"
+  install_framework "Pods-SnapyTag/SVProgressHUD.framework"
+  install_framework "Pods-SnapyTag/SnapKit.framework"
   install_framework "Pods-SnapyTag/SwiftDate.framework"
+  install_framework "Pods-SnapyTag/SwiftLocation.framework"
   install_framework "Pods-SnapyTag/SwiftyJSON.framework"
 fi

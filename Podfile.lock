@@ -6,21 +6,29 @@ PODS:
   - Bolts/AppLinks (1.6.0):
     - Bolts/Tasks
   - Bolts/Tasks (1.6.0)
+  - DynamicColor (2.3.0)
   - FBSDKCoreKit (4.9.1):
     - Bolts (~> 1.5)
   - FBSDKLoginKit (4.9.1):
     - FBSDKCoreKit
   - FBSDKShareKit (4.9.1):
     - FBSDKCoreKit
+  - SnapKit (0.15.0)
+  - SVProgressHUD (2.0)
   - SwiftDate (2.0.2)
+  - SwiftLocation (0.2.0)
   - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - Alamofire
+  - DynamicColor (~> 2.3.0)
   - FBSDKCoreKit
   - FBSDKLoginKit
   - FBSDKShareKit
+  - SnapKit (~> 0.15.0)
+  - SVProgressHUD
   - SwiftDate
+  - SwiftLocation
   - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
 
 EXTERNAL SOURCES:
@@ -35,10 +43,14 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
   Bolts: f52a250053bb517ca874523c3913776359ab3def
+  DynamicColor: 18badd22ee5edeefcbe0a8f5887a86640c592a1c
   FBSDKCoreKit: aee20b6d9855f15b618d4fddd1a5ad45f5a4a59d
   FBSDKLoginKit: ec22dc49bd372b064e93d6773df4ffefb3a552a2
   FBSDKShareKit: b8c8ef0ed173f9fc1b3c8df384a0202ce53008d4
+  SnapKit: 4962eed2ee18e48cbd2b2292fffc57efe7235f87
+  SVProgressHUD: e9e7c893686a20da55a28015ed384d9425e15479
   SwiftDate: b4f4d0962afe48365ad2800c9850a6626deb9359
+  SwiftLocation: ea78ae4a822581bde7379d98c8513273723c8840
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
 COCOAPODS: 0.39.0
